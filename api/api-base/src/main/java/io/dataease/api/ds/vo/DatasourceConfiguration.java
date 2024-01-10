@@ -25,7 +25,6 @@ public class DatasourceConfiguration extends Configuration{
         redshift("redshift", "AWS Redshift", "OLTP"),
         db2("db2", "Db2", "OLTP"),
         ck("ck", "Clickhouse", "OLAP"),
-        h2("h2", "H2", "OLAP"),
         sqlServer("sqlServer", "Sqlserver", "DL"),
         mongo("mongo", "MongoDB", "DL");
 
